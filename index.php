@@ -1,1 +1,1 @@
-<?php include_once('praktikum_ajax.html')
+<?php include_once('praktikum_ajax.html');
