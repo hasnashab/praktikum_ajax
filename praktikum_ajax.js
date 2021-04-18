@@ -23,10 +23,10 @@ $(function () {
 
                 $.each(data, function (i,item) {
                     data_html +=
-                    '<br>' +
-                    '<img src ="' +item.thumbnailUrl + '" alt="">' +
-                    '<br>' +
-                    '<h1>' + item.id + '. ' + item.title + '</h1>'
+                        '<br>' +
+                        '<img src ="' +item.thumbnailUrl + '" alt="">' +
+                        '<br>' +
+                        '<h1>' + item.id + '. ' + item.title + '</h1>'
                 });
                 
                 $("#data_hasil_dari_internet").html(data_html);
