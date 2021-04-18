@@ -7,7 +7,7 @@
  */
 
 $(function() {
-     $("#nama").load("test.txt");
+    $("#nama").load("test.txt");
 });
 
 $(function () {
@@ -32,7 +32,7 @@ $(function () {
                 $("#data_hasil_dari_internet").html(data_html);
             },
 
-            error: function(error) {
+            error: function (error) {
                 console.log(error);
             }
         })
