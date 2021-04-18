@@ -18,7 +18,7 @@ $(function () {
             url: url,
             type: 'GET',
 
-            success: function (data){
+            success: function (data)    {
                 let data_html = '';
 
                 $.each(data, function (i,item) {
